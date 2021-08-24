@@ -1,0 +1,164 @@
+*{
+    font-family: Helvetica;
+    color: seashell;
+    font-size: 22px;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+h5{
+    font-size: 0.89em;
+}
+
+body{
+    background-color: black;
+    opacity: 0.9;
+       
+}
+
+header {
+    height:69px;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    background-color: black;
+}
+
+header img{
+    height: 50px;
+    margin-left: 10px;
+}
+header p{
+    display: inline-flex;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+header div{
+    align-content: flex-end;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+}
+
+section{
+    margin: 20px;
+    
+}
+
+.mission{
+   display: flex;
+    justify-content: center;
+    flex: 1 1 1200px;
+    align-items: center;
+    height: 700px;
+    background-image: url(./Resourses/images/img-mission-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission-container {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    opacity: 1;
+}
+
+.Tea-month{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 1000px;
+}
+
+.Tea-month-container{
+    height: 250px;
+    width: 300px;
+    margin: 1%;
+    text-align: center;
+}
+.Tea-month-container1{
+    height: 120px;
+    width: 100%;
+    margin: 1%;
+    text-align: center;
+}   
+
+#img1, #img2, #img3, #img4, #img5 {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img1 {
+    background-image: url(./Resourses/images/img-berryblitz.webp);
+}
+
+#img2 {
+    background-image: url(./Resourses/images/img-spiced-rum.webp);
+}
+
+#img3 {
+    background-image: url(./Resourses/images/img-donut.webp);
+}
+
+#img4 {
+    background-image: url(./Resourses/images/img-myrtle-ave.webp);
+}
+
+#img5 {
+    background-image: url(./Resourses/images/img-bedford-bizarre.webp);
+}
+
+.Locations{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    flex: 1 1 1200px;
+    text-align: center;
+    background-image: url(./Resourses/images/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.locations-container{
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: black;
+    opacity: 1;
+}
+
+.locations-container1{
+    width: 100%;
+}
+
+.contact{
+    height: 200px;
+    flex: 1 1 1200px;
+    text-align: center;
+}
+
+footer{
+    text-align: left;
+    margin-left: 20px;
+}
+
