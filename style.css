@@ -66,7 +66,7 @@ section{
     flex: 1 1 1200px;
     align-items: center;
     height: 700px;
-    background-image: url(./Resourses/images/img-mission-background.webp);
+    background-image: url(img-mission-background.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -107,23 +107,23 @@ section{
 }
 
 #img1 {
-    background-image: url(./Resourses/images/img-berryblitz.webp);
+    background-image: url(img-berryblitz.webp);
 }
 
 #img2 {
-    background-image: url(./Resourses/images/img-spiced-rum.webp);
+    background-image: url(img-spiced-rum.webp);
 }
 
 #img3 {
-    background-image: url(./Resourses/images/img-donut.webp);
+    background-image: url(img-donut.webp);
 }
 
 #img4 {
-    background-image: url(./Resourses/images/img-myrtle-ave.webp);
+    background-image: url(img-myrtle-ave.webp);
 }
 
 #img5 {
-    background-image: url(./Resourses/images/img-bedford-bizarre.webp);
+    background-image: url(img-bedford-bizarre.webp);
 }
 
 .Locations{
@@ -134,7 +134,7 @@ section{
     align-content:center;
     flex: 1 1 1200px;
     text-align: center;
-    background-image: url(./Resourses/images/img-locations-background.webp);
+    background-image: url(img-locations-background.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
