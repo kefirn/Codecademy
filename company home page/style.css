@@ -1,0 +1,187 @@
+html{
+    background-color: #979e9d;
+    opacity: 0.8;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #15826A;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    color: #979e9d;
+}
+
+a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+/*1 layer*/
+header{
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: fixed;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: #15826A;
+}
+/*2 layer-header*/
+.logo img{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.header_a{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*2 layer-main*/
+.hero{
+    background-image: url("./map.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+
+/*2 layer-footer*/
+#copyright{
+    
+    
+}
+
+#address{
+    
+    
+    
+}
+/*3 layer-main*/
+#hero_text{
+    border: 1px solid #979e9d;
+    border-radius: 10%;
+    background-color: #979e9d;
+    opacity: 0.8;
+    color: white;
+    width: 25%;
+    height: fit-content;
+    padding: 1%;
+}
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+    border-bottom: 2px solid orangered;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+/*3 layer-footer*/
+.footer p{
+
+}
+/*4 layer-main*/
+#project{
+    width: 100%;
+    text-align: center;
+}
+.project_text{
+    text-align: start;
+    width: 44%;
+    text-align: center;
+    border-top: 2px solid orangered;
+}
+.project_photo{
+    width: 44%;
+    height: 700px;
+    text-align: center;
+}
+.project_photo img{
+    width: 80%;
+    height: 80%;
+}
+
+#team{
+    width: 100%;
+    text-align: center;
+}
+.team_photo{
+    margin: 3%;
+    text-align: center;
+}
+.team_photo img{
+    height: 250px;
+    width: 180px;
+}
+
+@media screen and (max-width: 480px){
+    p{
+        font-size: 12px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2{
+        font-size: 24px;
+    }
+    
+    a{
+        font-size: 10px;
+    }
+
+    #hero_text{
+        width: 60%;
+    }
+    .project_text{
+        width: 80%;
+    }
+    .project_photo{
+        display: none;
+    }
+
+}
